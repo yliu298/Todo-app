@@ -15,10 +15,10 @@ function Navbar() {
             <>
               <SignUpButton variant="outlined">
                 {/* this is will cause unhandle error */}
-                {/* <Link href="/api/auth/logout">
+                <Link href="/api/auth/logout">
                   <a>sign out</a>
-                </Link> */}
-                <a href="/api/auth/logout">sign out</a>
+                </Link>
+                {/* <a href="/api/auth/logout">sign out</a> */}
               </SignUpButton>
               <Avatar alt="Profile Photo" src={`${user.picture}`} />
             </>
@@ -26,10 +26,10 @@ function Navbar() {
             <Box display="flex" justifyContent="flex-end" flexGrow={1} alignItems="center">
               <SignUpButton variant="outlined">
                 {/* this is will cause unhandle error */}
-                {/* <Link href="/api/auth/login?returnTo=/dashboard">
+                <Link href="/api/auth/login?returnTo=/dashboard">
                   <a>Login</a>
-                </Link> */}
-                <a href="/api/auth/login?returnTo=/dashboard">Login</a>
+                </Link>
+                {/* <a href="/api/auth/login?returnTo=/dashboard">Login</a> */}
               </SignUpButton>
             </Box>
           )}
