@@ -2,7 +2,8 @@
 
 ToDo management web application website. Any user can create a Todo list and manage.
 
-![Demo](demo/demo.gif)
+![Demo](https://user-images.githubusercontent.com/65554508/132761367-ed8fbaef-6e70-4396-9c0c-11f184e01f97.mp4)
+
 
 **Tech Stack:** Next.js, Typescript, Auth0, AirTable, Material UI
 
